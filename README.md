@@ -19,7 +19,7 @@ _ **The main directories** _
 | Reputation Only | Dataset and FcNN code that utilise Reputation scores only |
 | Sentiment | The SST-5 dataset and experiments run on it |
 | Supplementary Material | Extra code that was used and other resources |
-| Kaggle-realorfakenews | Some tests done on the Kaggle dataset |
+
 
 Sub-directories and files common to more than one directory:
 
@@ -32,7 +32,6 @@ Sub-directories and files common to more than one directory:
 | train[description].xls | The training part of the dataset, where [description] indicates the main dataset being used. |
 | valid[description].xls | The validation set |
 | test[description].xls | The testing set |
-|   |
 | train-Reputation.xls | The reputation vector for the training set |
 | valid-Reputation.xls | The reputation vector for the validation set |
 | test-Reputation.xls | The reputation vector for the testing set |
@@ -52,7 +51,7 @@ _ **Sub-directories and files common to only one directory:** _
 
 In /LIAR Unchanged/
 
-| Vector for User Input string.ipynb | This notebook is useful to simply see the output vector from BERT.  This is the notebook that was used to test if BERT is modelling veracity in Section 5.1.1. |
+| Vector for User Input string.ipynb | This notebook is useful to simply see the output vector from BERT.  This is the notebook that was used to test if BERT is modelling veracity for section 4.4 of the paper.  It is possible to check the categorisation of any arbitrary statement with it too.|
 | --- | --- |
 
 **In /Reputation Only/**
