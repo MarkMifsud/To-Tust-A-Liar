@@ -1,5 +1,7 @@
 # To-Tust-A-Liar
-The source code used for the research paper "To trust a LIAR: Does Machine Learning really classify fine-grained, Fake News statements?"
+Mark Mifsud, Colin Layfield, Joel Azzopardi, John Abela
+Dept of Computer Information Systems, Faculty of ICT-University of Malta -Msida Malta
+
 
 The whole project is mainly separated based on the datasets used. There is a separate main directory for trials on the LIAR dataset, the Shuffled-LIAR dataset, the Cleaned-LIAR Dataset, Reputation Scores and for the SST-5 dataset, on which Sentiment Analysis was performed.
 
@@ -86,15 +88,10 @@ Transformers are computationally very demanding. All the code was produced, test
 _ **Software pre-requisites:** _
 
 The following need to be installed:
-
 Latest GPU Drivers
-
 Nvidia CUDA 10 or later
-
 Nvidia Apex
-
 Python 3
-
 Conda
 
 _ **Programming Language, IDE &amp; Environment** _
