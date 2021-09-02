@@ -39,14 +39,12 @@ Sub-directories and files common to more than one directory:
 | /TunedModels/[transformer class]/[transformer version]/cache | The cache produced when fine tuning the transformer is saved every few steps. In case the process encounters an issue and needs to be stopped, it can continue from the saved position. |
 | /TunedModels/[transformer class]/[transformer version]/Saves | The classification vector, output from the transformer for each entry in the dataset is store here to be used by the FcNN. |
 | /TunedModels/[transformer class]/[transformer version]/NNetwork | Trained FcNNs were saved here and the code allows one to load them again. |
-
-On the datasets which were used for the ill-conditioned test (SS-5,Cleaned-LIAR and LIAR), these subfolders will be present:
-| --- | --- |
 | /folds/ | The code used to investigate for testing the ill-conditioning of the problem saves the trained transformers and all relevant data in this directory. |
 | /folds/train\_fold[fold number].xls | There are 5 of these. They are the different training sets used. |
 | /folds/valid[fold number].xls | There are 5 of these. They are the different validation sets used. |
 | /folds/[transformer class]\_results[date] [time].xls | The results obtained by running the transformer [transformer class] |
 | /folds/fold[fold number]/ [transformer class]/[transformer version]/ | There are 5 of these directories and they contain the transformers fine-tuned with a different training set (with results) |
+
 
 _ **Sub-directories and files common to only one directory:** _
 
