@@ -1,7 +1,5 @@
 # To-Tust-A-Liar
-by Mark Mifsud, Colin Layfield, Joel Azzopardi, John Abela
-
-Dept of Computer Information Systems, Faculty of ICT-University of Malta -Msida Malta
+by Mark Mifsud, Colin Layfield, Joel Azzopardi, John Abela (Dept of Computer Information Systems, Faculty of ICT-University of Malta -Msida Malta)
 
 
 The whole project is mainly separated based on the datasets used. There is a separate main directory for trials on the LIAR dataset, the Shuffled-LIAR dataset, the Cleaned-LIAR Dataset, Reputation Scores and for the SST-5 dataset, on which Sentiment Analysis was performed.
