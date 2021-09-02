@@ -1,5 +1,6 @@
 # To-Tust-A-Liar
-Mark Mifsud, Colin Layfield, Joel Azzopardi, John Abela
+by Mark Mifsud, Colin Layfield, Joel Azzopardi, John Abela
+
 Dept of Computer Information Systems, Faculty of ICT-University of Malta -Msida Malta
 
 
