@@ -1,20 +1,20 @@
 # To-Tust-A-Liar
 by Mark Mifsud, Colin Layfield, Joel Azzopardi, John Abela (Dept of Computer Information Systems, Faculty of ICT-University of Malta -Msida Malta)
 
-# What this git repo is about
+## What this git repo is about
 This is the code used to carry out the study published as: 
 _M. Mifsud, C. Layfield, J. Azzopardi, J. Abela, “To trust a LIAR”: Does machine learning really classify fine-grained, fake news statements?, in: Proceedings of the 2nd Workshop on Online Misinformation- and Harm-Aware Recommender Systems (OHARS 2021), Amsterdam, Netherlands, 2021.  http://ceur-ws.org/Vol-3012/_
 
 The paper can be found here: http://ceur-ws.org/Vol-3012/OHARS2021-paper1.pdf
 
-# First steps
+## First steps
 This code is best run using a CUDA GPU with 11GB or more.  Alternatives are mentioned under the next title below
 
 The files are best viewed using Jupyter notebooks so install that first.
 
 Next you will need to set up the environment with the necessary libraries.  The quickest way to do that is to import the torch-transformers.yaml file in the Supplementary Material directory. 
 
-# In case a high end GPU is not available
+## In case a high end GPU is not available
 
 **Option 1:**   running the code on Google Colab with files on Google Drive.
 
@@ -30,7 +30,7 @@ A GPU with 8GB of RAM may be enough to run BERT-base.  Roberta-large and Albert-
 
 If no adequate CUDA GPU is found, the CPU will be used automatically, however, running Transformers on CPU will take a lot of time so it is not recommended.  BERT-base may take about 20 minutes just to train for one epoch on LIAR on a CPU with 16-threads.  Smaller batches can help if system RAM is scarce, and the smaller the batches the slower the program will run.  Results may also be affected (probably not by much).
 
-# Repo Guide
+## Repo Guide
 The whole project is mainly separated based on the datasets used. There is a separate main directory for trials on the LIAR dataset, the Shuffled-LIAR dataset, the Cleaned-LIAR Dataset, Reputation Scores and for the SST-5 dataset, on which Sentiment Analysis was performed.
 
 Note that since the resulting transformer models are each many gigabytes in size they are not being delivered with the code.  The results produced are, however, visible in the saved output of the code being run (within the Jupyter notebook) or in respective output files.  Should you wish to ask for any trained model produced in this study, please contact the first author on mark.mifsud.16@um.edu.mt . 
@@ -108,11 +108,11 @@ In /LIAR Unchanged/
 | Google Colab specific code.ipynb | The commented code, containing the lines that need to be added to any notebook, if it is to be run on Google Colab. |
 | torch-transformers.yaml | The Conda Environment used for the project |
 
-# Hardware and Software used
+## Hardware and Software used
 
-Transformers are computationally very demanding. All the code was produced, tested and run on a PC having a GPU with 24Gb of VRAM.  The code is meant to run on a CUDA Enabled GPU with 11GB (like Nvidia RTX 2080 Ti) or more.  If this is not available there are other options mentioned below.
+Transformers are computationally very demanding. All the code was produced, tested and run on a PC having a GPU with 24Gb of VRAM.  The code is meant to run on a CUDA Enabled GPU with 11GB (like Nvidia RTX 2080 Ti) or more.  If this is not available there are other options mentioned above.
 
-# Software pre-requisites:
+## Software pre-requisites:
 
 The following need to be installed:
 Latest GPU Drivers
@@ -133,7 +133,7 @@ Libraries used include Sklearn, Pandas, Pytorch for the FcNN, HuggingFace Transf
 https://huggingface.co/models
 https://simpletransformers.ai/about/
 
-# Troubleshooting known artefact issues
+## Troubleshooting known artefact issues
 
 This sudy&#39;s code was composed on Windows 10 and also verified to run well on Linux Mint (an Ubuntu variant).
 
